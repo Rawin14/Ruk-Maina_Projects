@@ -6,6 +6,8 @@
 
 # 2. โฟลเดอร์ Dependencies (ไลบรารีที่โหลดใหม่ได้)
 node_modules/
+
+# ไฟล์ Build ของ Next.js
 .next/
 
 # 3. ไฟล์ที่เกิดจากการ Build หรือ Compile โค้ด
