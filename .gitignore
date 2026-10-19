@@ -1,0 +1,24 @@
+# 1. ข้อมูลความลับและรหัสผ่าน
+.env
+.env.*
+*.pem
+*.key
+
+# 2. โฟลเดอร์ Dependencies (ไลบรารีที่โหลดใหม่ได้)
+node_modules/
+.next/
+
+# 3. ไฟล์ที่เกิดจากการ Build หรือ Compile โค้ด
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# 4. ไฟล์ขยะจากระบบปฏิบัติการ
+.DS_Store
+Thumbs.db
+
+# 5. ไฟล์ Log ของระบบ
+*.log
+npm-debug.log*
+yarn-error.log*
