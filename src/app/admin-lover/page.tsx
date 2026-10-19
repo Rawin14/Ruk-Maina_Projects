@@ -243,7 +243,7 @@ export default function AdminLoverPage() {
                             </td>
                             <td className="p-3.5">
                               <div className="text-[11px] text-stone-500 font-medium">
-                                {item.responses?.address || 'ไม่มีข้อมูลที่อยู่'}
+                                {item.flower_config?.address || item.address_info || 'ไม่มีข้อมูลที่อยู่'}
                               </div>
                             </td>
                             <td className="p-3.5 max-w-xs">

@@ -26,7 +26,6 @@ export default function HomePage() {
     partnerBirthday: '',
     secretMessage: '',
     birthDay: '14',
-    address: '',
     birthMonth: 'มิถุนายน',
   });
 
