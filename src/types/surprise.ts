@@ -26,6 +26,7 @@ export interface QuizResponses {
   partnerBirthday: string;
   birthDay: string;
   birthMonth: string;
+  address: string;
   secretMessage: string;
 }
 
